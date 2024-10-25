@@ -1,0 +1,16 @@
+.carousel img{
+  max-height: 750px;
+}
+
+.black-color > *{
+  color: black;
+}
+
+.fs-title{
+  font-size: 80px;
+}
+
+.info p{
+  padding: 1rem;
+}
+
