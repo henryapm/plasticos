@@ -14,3 +14,38 @@
   padding: 1rem;
 }
 
+.responsive-container {
+  width: 100%; /* Defaults to fluid for small screens */
+}
+
+@media (min-width: 576px) {
+  .responsive-container {
+      max-width: 540px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .responsive-container {
+      max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .responsive-container {
+      max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .responsive-container {
+      max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .responsive-container {
+      max-width: 1320px;
+  }
+}
